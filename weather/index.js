@@ -24,9 +24,9 @@ fetch('https://api.openweathermap.org/data/2.5/weather?q='+inputvalue.value+'&ap
 
 
         city.innerHTML=`Weatherof<span>${nameval}<span>`
-        temp.innerHTML=`Temperature: <span>${ convertion(temperarture)} C</span>` 
+        temp.innerHTML=`Temperature: <span>${ convertion(temperarture)} C</s` 
         description.innerHTML= `Sky Conditions: <span>${descrip}<span>`
         wind.innerHTML =`Wind speed: <span>${windspeed} km/h<span>`
     })
-    .catch(err =>alert('You enetred Wrong city name'))
+    .catch(err =>alert('You entered Wrong city name'))
 })
