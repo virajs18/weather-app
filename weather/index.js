@@ -4,7 +4,7 @@ var city = document.querySelector('#cityoutput');
 var description = document.querySelector('#description');
 var temp = document.querySelector('#temp');
 var wind = document.querySelector('#wind');
-var apik = '1881b8eda2e35046f5f67e0754cd9482';
+var apik = `1881b8eda2e35046f5f67e0754cd9482`;
 
 function convertion(val) {
     return (val - 273).toFixed(2); // Changed toFixed value to 2 for Celsius display
